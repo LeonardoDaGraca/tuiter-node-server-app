@@ -32,4 +32,5 @@ const port = process.env.PORT || 4000;
 TuitsController(app);
 HelloController(app);
 UserController(app);
+AuthController(app);
 app.listen(port);
